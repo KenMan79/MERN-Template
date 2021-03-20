@@ -1,6 +1,6 @@
-## _**PLEASE READ THIS TO COMPLETION BEFORE ASKING ANY QUESTIONS!**_
+# **PLEASE READ THIS TO COMPLETION BEFORE ASKING ANY QUESTIONS!**
 
-### _**IMPORTANT NOTES**_ - 
+## **IMPORTANT NOTES**
 This project does not have a mongoDB connection setup.
 - local development: create a config file (make sure to name it config.js) in the config folder, which exports your db.uri connection. An example is provided, config/config.example.js. This file will be ignored by git so your db credentials will be kept safe when the app is deployed.
 
@@ -13,7 +13,7 @@ Since this project will hold both the client application and the server applicat
 This app can be deployed directly to heroku since there is a script defined in package.json which will automatically handle building and deploying the app. For more information on deploying to heroku reference the extra resources at the bottom of this file. 
 
 
-## Available Scripts
+#### Available Scripts
 
 Please note that any time the server is run in these scripts `nodemon` is used in place of `node` for easier development. If you are interested in how this works follow the nodemon In the project directory, you can run:
 
